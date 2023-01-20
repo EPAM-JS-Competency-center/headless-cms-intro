@@ -12,7 +12,7 @@ const projectName = "headless-cms-intro"; // Usually your repo name.
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Headless CMS Intro",
-  url: `https://${organizationName}.github.io/${projectName}`,
+  url: `https://${organizationName}.github.io`,
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
