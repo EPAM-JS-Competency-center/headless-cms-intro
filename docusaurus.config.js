@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/EPAM-JS-Competency-center/headless-cms-intro",
+            "https://github.com/EPAM-JS-Competency-center/headless-cms-intro/blob/main",
         },
         blog: false,
         theme: {
