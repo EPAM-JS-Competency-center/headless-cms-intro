@@ -13,7 +13,7 @@ const projectName = "headless-cms-intro"; // Usually your repo name.
 const config = {
   title: "Headless CMS Intro",
   url: `https://${organizationName}.github.io`,
-  baseUrl: "/",
+  baseUrl: `/${projectName}`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
