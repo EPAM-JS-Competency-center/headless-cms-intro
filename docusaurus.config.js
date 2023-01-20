@@ -4,20 +4,21 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+// GitHub pages deployment config.
+// If you aren't using GitHub pages, you don't need these.
+const organizationName = "EPAM-JS-Competency-center"; // Usually your GitHub org/user name.
+const projectName = "headless-cms-intro"; // Usually your repo name.
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Headless CMS Intro",
-  url: "https://your-docusaurus-test-site.com",
+  url: `https://${organizationName}.github.io/${projectName}`,
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "EPAM-JS-Competency-center", // Usually your GitHub org/user name.
-  projectName: "headless-cms-intro", // Usually your repo name.
-
+  organizationName,
+  projectName,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
